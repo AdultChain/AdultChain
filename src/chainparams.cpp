@@ -160,7 +160,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000dc93d16a9f3ea5c69282d4b2495b2939605bcaf59f6fe841fa77c61c6d0"));
         assert(genesis.hashMerkleRoot == uint256("0x6acd105ddf7b5bff42b8f53ad7cedf23b7385f6c27cdb9e64dd61e6a43083b4b"));
 
-        vSeeds.push_back(CDNSSeedData("adult.mn.zone", "adult.mn.zone"));       // Seeder
+        vSeeds.push_back(CDNSSeedData("adult.seeds.mn.zone", "adult.seeds.mn.zone"));       // Seeder
         vSeeds.push_back(CDNSSeedData("209.250.241.176", "209.250.241.176"));   // Single node address
         vSeeds.push_back(CDNSSeedData("209.250.243.131", "209.250.243.131"));   // Single node address
 		vSeeds.push_back(CDNSSeedData("45.77.239.108", "45.77.239.108"));       // Single node address
