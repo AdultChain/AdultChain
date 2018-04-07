@@ -40,15 +40,17 @@ More information at [AdultChain.xxx](https://www.adultchaincoin.xxx) Visit our A
 
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
-<tr><td>2-3029</td><td>100 XXX</td><td>0 XXX</td><td100% (100 XXX)</td></tr>
+<tr><td>2-200</td><td>100 XXX</td><td>0 XXX</td><td100% (100 XXX)</td><td100% (100 XXX)</td></tr>
 </table>
 
 ### PoS Rewards Breakdown
 
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
-<tr><td>Phase 1</td><td>3030-518400</td><td>10 XXX</td><td>65% (6.5 XXX)</td><td>35% (3.5 XXX)</td></tr>
-<tr><td>Phase 2</td><td>518401-777600</td><td>5 XXX</td><td>65% (3.25 XXX)</td><td>35% (1.75 XXX)</td></tr>
-<tr><td>Phase 3</td><td>777601-1036801</td><td>2 XXX</td><td>65% (1.3 XXX)</td><td>35% (0.7 XXX)</td></tr>
-<tr><td>Phase 4</td><td>1036802-Infinite</td><td>1 XXX</td><td>65% (0.65 XXX)</td><td>35% (0.35 XXX)</td></tr>
+<tr><td>Phase 1</td><td>201-135,000</td><td>100 XXX</td><td>75% (75 XXX)</td><td>25% (25 XXX)</td></tr>
+<tr><td>Phase 2</td><td>135,001-390,000</td><td>80 XXX</td><td>75% (60 XXX)</td><td>25% (20 XXX)</td></tr>
+<tr><td>Phase 3</td><td>390,001-800,000</td><td>50 XXX</td><td>75% (37.5 XXX)</td><td>25% (12.5 XXX)</td></tr>
+<tr><td>Phase 4</td><td>800,001-1,500,000</td><td>20 XXX</td><td>75% (15 XXX)</td><td>25% (5 XXX)</td></tr>
+<tr><td>Phase 5</td><td>1,500,001-2,660,026</td><td>10 XXX</td><td>75% (7.5 XXX)</td><td>25% (2.5 XXX)</td></tr>
+
 </table>
