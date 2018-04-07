@@ -29,18 +29,18 @@ More information at [AdultChain.xxx](https://www.adultchaincoin.xxx) Visit our A
 <table>
 <th colspan=4>PoW Phase</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
-<tr><td>1</td><td>400,000 XXX</td><td>Initial Premine</td><td>0 Days</td></tr>
-<tr><td>2-3029</td><td>10 XXX</td><td rowspan=1>Open Mining</td><td rowspan=1> Approx 180 Days</td></tr>
+<tr><td>1</td><td>20,000,000 XXX</td><td>Initial Premine</td><td>0 Days</td></tr>
+<tr><td>2-200</td><td>100 XXX</td><td rowspan=1>Open Mining</td><td rowspan=1> Approx 1 Day</td></tr>
 <tr><th colspan=4>PoS Phase</th></tr>
 <tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
-<tr><td>259201-Infinite</td><td colspan=2>Masternodes: 65%</td><td>Stakers: 35%</td></tr>
+<tr><td>201-</td><td colspan=2>Masternodes: 75%</td><td>Stakers: 25%</td></tr>
 </table>
 
 ### PoW Rewards Breakdown
 
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
-<tr><td>2-3029</td><td>10 XXX</td><td>65% (6.5 XXX)</td><td>35% (3.5 XXX)</td></tr>
+<tr><td>2-3029</td><td>100 XXX</td><td>0 XXX</td><td100% (100 XXX)</td></tr>
 </table>
 
 ### PoS Rewards Breakdown
