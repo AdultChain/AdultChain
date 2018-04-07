@@ -9,19 +9,18 @@ AdultChain is a cutting edge cryptocurrency, with many features not available in
 - Fast transactions featuring guaranteed zero confirmation transactions, PIVX named it _SwiftX_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
-  with a collateral of 10K XXX.
+  with a collateral of 20K XXX.
 
-More information at [AdultChainCoin.com](http://www.adultchaincoin.com) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [AdultChain.xxx](https://www.adultchaincoin.xxx) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Block Time</td><td>120 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>3,000,000 XXX</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>400,000 XXX</td></tr>
+<tr><td>Max Coin Supply </td><td>100,000,000 XXX</td></tr>
+<tr><td>Premine</td><td>20,000,000 XXX</td></tr>
 </table>
 
 
