@@ -11,7 +11,7 @@ AdultChain is a cutting edge cryptocurrency, with many features not available in
   technology used to secure the network and provide the above features, each Masternode is secured
   with a collateral of 20K XXX.
 
-More information at [AdultChain.xxx](https://www.adultchaincoin.xxx) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+More information at [AdultChain.xxx](https://adultchain.xxx) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
 
 
 ### Coin Specs
