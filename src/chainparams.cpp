@@ -189,7 +189,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04459ebb0c02477d3d13f4ebbfe63d4df0e1fa53c9e687b368083cd26021a419feed1b585b8aed2d093dcc7588ec23e78ce0d96d12178dfc989d4990cb1f968114";
+        strSporkKey = "041c51abb6bbbe07bde1f95067b74a55118dc13df7adf609e76e3cb92d8326db9f6f081e4cdfcf9f9a496521e7d4cd7a6d5dbca73a5d5dda8eafcfb715f70bc699";
         strObfuscationPoolDummyAddress = "XCNAsFGy8k7amqRG26ikKyfVDwK8585Z6b";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
@@ -280,7 +280,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "04188441e39d99aa69068ee07d26980f459b84465bbd765c6ee15d1aec5b76b5aebb01b24be184a1d3a12af61276549d96cc9499d909f8afc183132837d18d643d";
+        strSporkKey = "04f55ceabd0f24c09cf639fcd13126722f5187cafca86bcb449051afbad76d573ac6cdb284b892cceb6d37af98491a9752a405705cb87bf257d25c672bb613c235";
         strObfuscationPoolDummyAddress = "xp87cG8UEQgzs1Bk67Yk884C7pnQfAeo7q";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
