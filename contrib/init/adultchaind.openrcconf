@@ -1,0 +1,26 @@
+# /etc/conf.d/adultchaind: config file for /etc/init.d/adultchaind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/adultchain/adultchain.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/adultchaind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/adultchaind.pid"
+
+# Where to write adultchaind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/adultchaind"
+
+# User and group to own adultchaind process
+#BITCOIND_USER="adultchain"
+#BITCOIND_GROUP="adultchain"
+
+# Path to adultchaind executable
+#BITCOIND_BIN="/usr/bin/adultchaind"
+
+# Nice value to run adultchaind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

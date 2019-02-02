@@ -1,0 +1,26 @@
+[Unit]
+Description=AdultChain's distributed currency daemon
+After=network.target
+
+[Service]
+User=adultchain
+Group=adultchain
+
+Type=forking
+PIDFile=/var/lib/adultchaind/adultchaind.pid
+
+ExecStart=/usr/bin/adultchaind -daemon -pid=/var/lib/adultchaind/adultchaind.pid \
+          -conf=/etc/adultchain/adultchain.conf -datadir=/var/lib/adultchaind
+
+ExecStop=-/usr/bin/adultchain-cli -conf=/etc/adultchain/adultchain.conf \
+         -datadir=/var/lib/adultchaind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

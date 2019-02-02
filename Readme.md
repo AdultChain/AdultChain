@@ -1,118 +1,56 @@
-## Will Jekyll Template - [Demo](https://willianjusten.github.io/will-jekyll-template)
-
-![Screenshot](screenshot.png)
-
-This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
-
-The Theme features:
-
-- Gulp
-- Stylus (Jeet, Rupture, Kouto Swiss)
-- Smoothscroll
-- Live Search
-- Offcanvas Menu
-- SVG icons
-- Very very small and fast!
-- Shell Script to create posts
-- Tags page
-- Series page
-- About Me page
-- Feed RSS
-- Sitemap.xml
-- Color Customization
-- Info Customization
-
-## Basic Setup
-
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
-3. Clone the repo you just forked.
-4. Edit `_config.yml` to personalize your site.
-5. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
-7. **Remember to compile your assets files with Gulp.**
-
-## Site and User Settings
-
-You have to fill some informations on `_config.yml` to customize your site.
-
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
-
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
-```
-
-**Don't forget to change your baseurl before build your site!**
-
-## Color customization
-
-All color variables are in `src/styl/variable`. To change the main color, just set the new value at `main` assignment. Another colors are for texts and the code background color.
-
-## Creating posts
-
-You can use the `initpost.sh` to create your new posts. Just follow the command:
-
-```
-./initpost.sh -c Post Title
-```
-
-The new file will be created at `_posts` with this format `date-title.md`.
-
-## Front-matter 
-
-When you create a new post, you need to fill the post information in the front-matter, follow this example:
-
-```
----
-layout: post
-title: "How to use"
-date: 2015-08-03 03:32:44
-image: '/assets/img/post-image.png'
-description: 'First steps to use this template'
-tags:
-- jekyll 
-- template 
-categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
----
-```
-
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Run `npm install` 
-- Run `gulp`
-
-## Questions
-
-Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@willian_justen](https://twitter.com/willian_justen) or file a [GitHub Issue](https://github.com/willianjusten/will-jekyll-template/issues/new).
-
-## Donation
-
-If you liked my work, buy me a coffee <3
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UTMFZUHX6EUGE)
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
-
-If you’d like to give me credit somewhere on your blog or tweet a shout out to [@willian_justen](https://twitter.com/willian_justen), that would be pretty sweet.
+### AdultChain is a fork of [PIVX](https://github.com/PIVX-Project/PIVX) that forked [Dash](https://github.com/dashpay/dash) that forked [Bitcoin](https://github.com/bitcoin/bitcoinp)
 
 
+# AdultChain Core integration/staging repository
 
 
+AdultChain is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
+- Anonymized transactions using zerocoin technology.
+- Fast transactions featuring guaranteed zero confirmation transactions, PIVX named it _SwiftX_.
+- Decentralized blockchain voting providing for consensus based advancement of the current Masternode
+  technology used to secure the network and provide the above features, each Masternode is secured
+  with a collateral of 20K XXX.
+
+More information at [AdultChain.me](https://adultchain.me) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php)
+
+
+### Coin Specs
+<table>
+<tr><td>Algo</td><td>Quark</td></tr>
+<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
+<tr><td>Max Coin Supply </td><td>100,000,000 XXX</td></tr>
+<tr><td>Premine</td><td>20,000,000 XXX</td></tr>
+</table>
+
+
+### Reward Distribution
+
+<table>
+<th colspan=4>PoW Phase</th>
+<tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
+<tr><td>1</td><td>20,000,000 XXX</td><td>Initial Premine</td><td>0 Days</td></tr>
+<tr><td>2-200</td><td>100 XXX</td><td rowspan=1>Open Mining</td><td rowspan=1> Approx 1 Day</td></tr>
+<tr><th colspan=4>PoS Phase</th></tr>
+<tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
+<tr><td>201-</td><td colspan=2>Masternodes: 75%</td><td>Stakers: 25%</td></tr>
+</table>
+
+### PoW Rewards Breakdown
+
+<table>
+<th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Miner</th>
+<tr><td>2-200</td><td>100 XXX</td><td>0 XXX</td><td100% (100 XXX)</td><td100% (100 XXX)</td></tr>
+</table>
+
+### PoS Rewards Breakdown
+
+<table>
+<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
+<tr><td>Phase 1</td><td>201-135,000</td><td>100 XXX</td><td>75% (75 XXX)</td><td>25% (25 XXX)</td></tr>
+<tr><td>Phase 2</td><td>135,001-390,000</td><td>80 XXX</td><td>75% (60 XXX)</td><td>25% (20 XXX)</td></tr>
+<tr><td>Phase 3</td><td>390,001-800,000</td><td>50 XXX</td><td>75% (37.5 XXX)</td><td>25% (12.5 XXX)</td></tr>
+<tr><td>Phase 4</td><td>800,001-1,500,000</td><td>20 XXX</td><td>75% (15 XXX)</td><td>25% (5 XXX)</td></tr>
+<tr><td>Phase 5</td><td>1,500,001-2,660,026</td><td>10 XXX</td><td>75% (7.5 XXX)</td><td>25% (2.5 XXX)</td></tr>
+
+</table>

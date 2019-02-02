@@ -1,0 +1,6 @@
+usr/local/bin/adultchain-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/adultchain-qt.desktop usr/share/applications
+debian/adultchain-qt.protocol usr/share/kde4/services/

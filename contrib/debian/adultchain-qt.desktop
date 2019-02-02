@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AdultChain
+Comment=AdultChain P2P Cryptocurrency
+Comment[fr]=AdultChain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AdultChain, eşten eşe kriptografik sanal para birimi
+Exec=adultchain-qt %u
+Terminal=false
+Type=Application
+Icon=adultchain128
+MimeType=x-scheme-handler/adultchain;
+Categories=Office;Finance;
